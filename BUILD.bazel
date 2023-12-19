@@ -1,0 +1,9 @@
+cc_binary(
+    name = "bazel_boost",
+    srcs = [
+      "main.cpp"
+    ],
+    deps = [
+        "@boost.asio",
+    ],
+)
